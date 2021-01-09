@@ -1,11 +1,12 @@
 /*Fonts from Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@200&family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
 
 body {
     background-color: #085979;
     margin: 0 auto;
     max-width: 900px;
+    font-family: "Fraunces", sans-serif;
 }
 
 header {
@@ -14,36 +15,48 @@ header {
     margin: 20px 0;
     padding: 15px;
     border-radius: 10px;  
-    font-family: "Potta+One", serif;
 }
 
 img {
     float: right;
     border: 2px solid #e8e6e5;
-    margin: 0;
+    margin: 0 2px;
     border-radius: 20px; 
- 
+    box-shadow: 4px 6px 10px #56c4dc;
 }
 
 h1 {
-    color: #e8e6e5; 
-    font-family: "Potta+One", serif;
+    color: #56c4dc; 
+    font-family: "Alice", sans-serif;
+    font-size: 40px;
 }
 
 h2 {
     color: #e8e6e5;
+    margin: 15px;
+    padding: 10px 20px;
+    box-shadow: 0 1px;
 }
 
-ul il a:hover {
-    color: #e8e6e5;
+ul li {
+    color:#e8e6e5;
 }
 
+nav a {
+    color: #56c4dc; 
+}
 
 footer {
-    background-color: #d63230; 
+    background-color: #d63230;
+    margin: 40px 0; 
     text-align: center;
     padding: 15px;
     border-radius: 10px;
+    font-family: "Alice", sans-serif;
+}
+
+footer a {
+    color: #56c4dc; 
 }
 
 #footer-block {
@@ -54,7 +67,9 @@ footer {
     color: #e8e6e5;
 }
 
-@media only screen and (max-width:550px) {
+
+
+@media only screen and (max-width:500px) {
     /* For mobile phones: */
     .menu, .main, .right {
       width:100%;
