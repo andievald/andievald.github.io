@@ -1,0 +1,64 @@
+/*Fonts from Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+body {
+    background-color: #085979;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+header {
+    background-color: #d63230; 
+    text-align: center;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 10px;  
+    font-family: "Potta+One", serif;
+}
+
+img {
+    float: right;
+    border: 2px solid #e8e6e5;
+    margin: 0;
+    border-radius: 20px; 
+ 
+}
+
+h1 {
+    color: #e8e6e5; 
+    font-family: "Potta+One", serif;
+}
+
+h2 {
+    color: #e8e6e5;
+}
+
+ul il a:hover {
+    color: #e8e6e5;
+}
+
+
+footer {
+    background-color: #d63230; 
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#footer-block {
+    color: #e8e6e5;
+}
+
+#last_updated {
+    color: #e8e6e5;
+}
+
+@media only screen and (max-width:550px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width:100%;
+    } 
+  }
+  
+  
