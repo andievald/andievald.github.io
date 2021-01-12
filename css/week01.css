@@ -6,7 +6,7 @@ body {
     background-color: #265061;
     margin: 0 auto;
     max-width: 900px;
-    font-family: "Fraunces", sans-serif;
+    font-family: 'Yusei Magic', "Open sans", sans-serif;
 }
 
 header {
@@ -26,12 +26,13 @@ img {
 
 h1 {
     color: #e8e6e5;
-    font-family: "Alice", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 40px;
 }
 
 h2 {
     color: #e8e6e5;
+    font-family: 'Poppins', sans-serif;
     margin: 15px;
     padding: 10px 20px;
     box-shadow: 0 1px;
@@ -60,6 +61,7 @@ footer a {
 
 #footer-block {
     color: #e8e6e5;
+    font-family: 'Poppins', sans-serif;
 }
 
 #last_updated {
